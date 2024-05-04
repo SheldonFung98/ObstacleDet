@@ -5,16 +5,11 @@ This project provides obstacle detection functionality based on the fusion of la
 ![Overview](/assets/1.png)
 ![Overview](/assets/2.png)
 
-## Code Location
-```
-http://10.48.21.42/aiteam/obstacledet.git
-```
-
 ## Usage
 ### Compilation
 ```
 mkdir -p catkin_ws/src && cd catkin_ws/src
-git clone http://10.48.21.42/aiteam/obstacledet.git
+git clone https://github.com/SheldonFung98/ObstacleDet
 cd ..
 catkin_make
 source devel/setup.sh
